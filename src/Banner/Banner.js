@@ -5,6 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 import image1 from '.././allImage/faculty+banners-03.jpg'
 
 const Banner = () => {
+  
     return (
         <>
             <Carousel>

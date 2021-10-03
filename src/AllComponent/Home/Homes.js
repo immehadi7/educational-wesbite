@@ -1,15 +1,27 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
 import Banner from '../../Banner/Banner';
+import Package from '../Package/Package';
 import './home.css'
 
 const Homes = () => {
+    const [homeCourse , setHomeCourse] = useState([])
+    useEffect(()=>{
+        let url =  ` https://immehadi7.github.io/jsonapi/homejsonShow.json` ;
+            fetch(url)
+                .then(res=>res.json())
+                    .then(data=> console.log(data))
+
+    } ,[])
 
     return (
         <div>
             <Banner></Banner>
-            
+            <Package></Package>
         </div>
     );
 };
 
 export default Homes;
+
