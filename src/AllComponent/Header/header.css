@@ -1,0 +1,13 @@
+.navbar-style{
+    background-color: rgba(157, 158, 158, 0.692);
+}
+.{
+    text-decoration: none;
+}
+.selected{
+    text-decoration: none;
+    color: rgb(4, 4, 148);
+    font-size: 20px;
+    padding: 0px 15px;
+    font-weight: 600;
+}

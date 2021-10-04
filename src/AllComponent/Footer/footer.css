@@ -1,9 +1,14 @@
 
 footer{
     width:100% ;
-    background-color: rgb(91, 91, 92);
-    color: #afb0b8;
-    position: fixed;
+    background-color: rgba(157, 158, 158, 0.856);
+    color: #333333;
     left: 0;
-    bottom: 0;
+    bottom:0;
+    display:block; 
+   
+    padding: 20px;
+    margin-top: auto;
+   display: flex;
+   justify-content: space-between;
 }
