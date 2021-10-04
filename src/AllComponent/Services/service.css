@@ -1,3 +1,16 @@
+.service-part{
+    text-align: center;
+    margin: 15px;
+    
+}
+.service-part h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 30px;
+}
+
 .service-show{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Row } from 'react-bootstrap';
 import AllService from '../Allservice/AllService';
 import './service.css';
 
@@ -13,15 +14,18 @@ const Service = () => {
                         .then(data => setAllServices(data) )
         },[])
     return (
-        <div>
-             <h1>Here all our course</h1>
-            <div className='service-show' >
-                {
+        <div className='service-part'>
+             <h1>Choose your favorite Course: {allServices.length} available </h1>
+            <div className='' >
+            <Row xs={1} md={3} className="g-4" style={{marginLeft:"40px"}}> 
+            {
                     allServices.map(services => <AllService 
                         services={services}
                         key={services.id}
                         ></AllService> )
                 }
+              </Row>
+              
             </div>
         </div>
     );
