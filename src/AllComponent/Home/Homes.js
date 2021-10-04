@@ -20,8 +20,8 @@ const Homes = () => {
         <div>
             <Banner></Banner>
 
-            <div>
-                <h1>learn our course</h1>
+            <div className='learnHomeStyle'>
+                <h1>Learn our course</h1>
             <Row xs={1} md={3} className="g-4">
             {
                     homeCourses.map(homeCourse => <Package

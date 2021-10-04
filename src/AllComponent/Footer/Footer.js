@@ -4,8 +4,12 @@ import './footer.css' ;
 const Footer = () => {
     return (
         <div>
-            <h1>Footer added</h1>            
+ <footer>
+            <h1>I am footer</h1>
+                    
+        </footer>
         </div>
+       
     );
 };
 

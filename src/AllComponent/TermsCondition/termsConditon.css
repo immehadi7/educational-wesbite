@@ -1,0 +1,14 @@
+.termsStyle{
+    background-color: rgb(240, 240, 245);
+}
+.termsStyle h1{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color: blue;
+}
+p{
+   color: black;
+   font-family: sans-serif;
+}

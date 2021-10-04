@@ -1,0 +1,24 @@
+.about-page{
+    margin: 20px;
+   
+}
+.about-aside{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.about-aside h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: navy;
+}
+.form-style input{
+    margin: 5px;
+
+}
+.about-beside img{
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+}
