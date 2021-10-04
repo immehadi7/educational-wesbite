@@ -22,7 +22,7 @@ const Homes = () => {
 
             <div className='learnHomeStyle'>
                 <h1>Learn our course</h1>
-            <Row xs={1} md={3} className="g-4">
+            <Row xs={1} md={3} className="g-4" style={{marginLeft:"40px"}}>
             {
                     homeCourses.map(homeCourse => <Package
                         key={homeCourse.id}

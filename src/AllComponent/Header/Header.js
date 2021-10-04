@@ -9,10 +9,18 @@ const Header = () => {
         <Navbar className='navbar-style' >
             <Container>
                     <Nav className="me-auto">
-                         <NavLink to="/"   activeClassName="selected">Home</NavLink>
-                <NavLink to="/services"  activeClassName="selected">Services</NavLink>
-                                    <NavLink to="/aboutus"  activeClassName="selected">About Us</NavLink>
-                                    <NavLink to="/termsandCondition"  activeClassName="selected">Terms and Conditions </NavLink>
+                <NavLink to="/" className='navStyle'
+               /*   activeStyle={{color: 'rgb(4, 4, 148)',
+                 fontSize: '20px',
+                 fontWeight: '600'
+               }} */
+                 >Home</NavLink>
+
+                <NavLink to="/services"   className='navStyle' >Services</NavLink>
+
+                <NavLink to="/aboutus" className='navStyle'>About Us</NavLink>
+
+                <NavLink to="/termsandCondition" className='navStyle'>Terms and Conditions </NavLink>
                                       </Nav>
                                              </Container>
                                                      </Navbar>
