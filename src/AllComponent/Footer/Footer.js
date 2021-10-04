@@ -1,7 +1,11 @@
 import React from 'react';
 import './footer.css' ;
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone , faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
+    const phone = <FontAwesomeIcon icon={faPhone} />
+    const email = <FontAwesomeIcon icon={faEnvelope} />
     return (
         <div>
  <footer>
@@ -13,8 +17,8 @@ const Footer = () => {
        </div>
             <div>
                 <h5>Contact us</h5>
-                <h5> <small>Phone: +2938472312</small> </h5>
-                <h5> email: fastlearner@umail.com</h5>
+                <h5> <small> {phone} : +2938472312</small> </h5>
+                <h5> {email}: fastlearner@umail.com</h5>
                 </div>        
         </footer>
         </div>
