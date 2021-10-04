@@ -1,10 +1,13 @@
 import React from 'react';
 import { Card, Col , Button} from 'react-bootstrap';
 import './allservice.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const AllService = (props) => {
     let {title, price , description , image} = props.services
-        console.log(props.services)
+        console.log(props.services);
+        const element = <FontAwesomeIcon icon={faShoppingCart} />
     return (
         <div className='all-servicesStyle' >
  
@@ -18,7 +21,7 @@ const AllService = (props) => {
            {description.slice(0,200)}
           </Card.Text>
         </Card.Body>
-        <Card.Footer> <Button variant="outline-primary">Purchase now</Button> </Card.Footer>
+        <Card.Footer> <Button variant="outline-primary"> {element} Purchase now</Button> </Card.Footer>
       </Card>
     </Col>
 

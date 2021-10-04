@@ -1,11 +1,15 @@
 import React from 'react';
 import { Card, Col , Button } from 'react-bootstrap';
 import './package.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Package = (props) => {
-    let {id, title , description , price , image} = props.homeCourse
+    let {title , description , price , image} = props.homeCourse
         console.log(props.homeCourse)
 
+        const element = <FontAwesomeIcon icon={faShoppingCart} />
+        
     return (
         <div className='cardStyle'> 
            
@@ -19,7 +23,7 @@ const Package = (props) => {
        {description.slice(0,200)}
       </Card.Text>
     </Card.Body>
-    <Button variant="primary">Purchase now</Button>{' '}
+    <Button variant="primary"> {element} Purchase now</Button>{' '}
   </Card>
 
   
