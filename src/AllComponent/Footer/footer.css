@@ -1,6 +1,12 @@
+.footer-class{
+  /*   min-height: 100%;
+    margin-bottom:20%; */
 
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+}
 footer{
-    width:100% ;
+     width:100% ;
     background-color: rgba(157, 158, 158, 0.856);
     color: #333333;
     left: 0;
@@ -10,5 +16,16 @@ footer{
     padding: 20px;
     margin-top: auto;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-between; 
+  /*  height:24px;  // Replace with the height your footer should be 
+    width: 100%;  // Don't change 
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+
+ */
 }

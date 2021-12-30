@@ -2,6 +2,9 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import './about.css';
 import img from '../../allImage/myselfpic.jpg' ;
+import img2 from "../../allImage/FB_IMG_1640797398394.jpg";
+import img3 from "../../allImage/IMG_20211221_144757.jpg";
+import img4 from "../../allImage/received_269831325135194.jpeg";
 
 const About = () => {
     return (
@@ -24,7 +27,9 @@ const About = () => {
                 <h3>
                     Meet our team member
                 </h3>
-                <img src={img} alt="" />
+                <img src={img2} alt="" />
+                <img src={img3} alt="" />
+                <img src={img4} alt="" />
             </div>
 
             </div>

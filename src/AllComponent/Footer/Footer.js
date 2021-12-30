@@ -7,7 +7,7 @@ const Footer = () => {
     const phone = <FontAwesomeIcon icon={faPhone} />
     const email = <FontAwesomeIcon icon={faEnvelope} />
     return (
-        <div>
+        <div >
  <footer>
        <div>
            <h2>This is a educational website</h2>
